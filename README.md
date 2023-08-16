@@ -1,2 +1,2 @@
 # telegram_bot
-Telegram Bot
+Basic Telegram Bot

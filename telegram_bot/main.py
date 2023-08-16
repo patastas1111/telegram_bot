@@ -14,7 +14,7 @@ def send_help_message(msg):
 
 @bot.message_handler(commands=["advisory"])
 def send_multi_message(msg):
-    bot.reply_to(msg, "DCTECH ADVISORY \n\nDearest Client, \nKindly be informed that we are experiencing Intermittent to No Internet Connection on some areas of  due to a cause yet to be determined. Our engineers are already checking the issue. \n\nAffected Areas: \n\nWe sincerely apologise for any inconvenience this may cause you. Rest assured that our team is resolving this matter with urgency and we will update you of any resolution progress.\n\n\nThank you.")
+    bot.reply_to(msg, "ADVISORY \n\nDearest Client, \nKindly be informed that we are experiencing Intermittent to No Internet Connection on some areas of  due to a cause yet to be determined. Our engineers are already checking the issue. \n\nAffected Areas: \n\nWe sincerely apologise for any inconvenience this may cause you. Rest assured that our team is resolving this matter with urgency and we will update you of any resolution progress.\n\n\nThank you.")
 
 @bot.message_handler(commands=['with_address'])
 def send_welcome(message):
